@@ -1,0 +1,113 @@
+    /* import google fonts */
+    @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+    *, *::after, *::before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html, body {
+        font-size: 62.5%;
+        height: 100%;
+    }
+
+    body {
+        font-family: "JetBrains Mono", system-ui;
+        background-color: #f9f9f9;
+        font-size: 1.6rem;
+        color: #111;
+        width: calc(100);
+        line-height: 1.6;
+        margin: 0 auto;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* background-color: red; */
+    }
+    p{
+        color: #333;
+    }
+
+    header {
+        text-align: center;
+    }
+    header p{
+        max-width: 110rem;
+        text-align: center;
+        margin: 0.5rem auto;
+    }
+    hr{
+        width: calc(100% - 50rem);
+        margin-inline: auto ;
+    }
+    nav {
+        background-color: #444;
+        padding: 2rem;
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        max-width: 35rem;
+        margin: 0 auto;
+    }
+    header nav ul li{
+        list-style: none;
+    }
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 1.8rem;
+
+    }
+h1{
+    text-align: center;
+    padding: 2rem 0 1rem 0;
+}
+hr{
+    width: calc(100% - 50rem);
+    margin-inline: auto ;
+    margin-bottom: 3rem;
+}
+main{
+    width: calc(100% - 50rem);
+    margin: 0 auto  ;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+}
+span{
+    /* font-size: 3rem; */
+    /* border: 1px solid red;    */
+    padding-left: 1rem;
+    /* border: 1px solid black; */
+    font-weight: 700;
+    display: flex;  
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+footer{
+    font-weight: 400;
+    color: white;
+    margin-top: auto;
+    width: 100%;
+    padding: 1rem;
+    /* border: 1px solid red; */
+    text-align: center;
+    background-color: #444;
+}
+footer p{
+    opacity: 0.8;
+    color: white;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold ;
+}
